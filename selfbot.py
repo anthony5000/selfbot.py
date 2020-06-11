@@ -111,9 +111,9 @@ class Selfbot(commands.Bot):
     def run_wizard():
         '''Wizard for first start'''
         print('------------------------------------------')
-        token = input('Enter your token:\n> ')
+        token = input('n:\n> ')
         print('------------------------------------------')
-        prefix = input('Enter a prefix for your selfbot:\n> ')
+        prefix = input('/:\n> ')
         data = {
                 "TOKEN" : token,
                 "PREFIX" : prefix,
